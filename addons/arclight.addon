@@ -1,0 +1,50 @@
+:main
+a_name Arclight Server
+a_version 2.0
+a_author d0ce3
+a_add_type arclight
+a_add_version arclight 1.20.1 https://github.com/IzzelAliz/Arclight/releases/download/Trials%2F1.0.5/arclight-forge-1.20.1-1.0.5.jar 17
+a_add_version arclight 1.19.2 https://github.com/IzzelAliz/Arclight/releases/download/horn%2F1.0.5/arclight-forge-1.19.2-1.0.5.jar 17
+a_add_version arclight 1.18.2 https://github.com/IzzelAliz/Arclight/releases/download/1.18%2F1.0.12/arclight-forge-1.18.2-1.0.12.jar 17
+
+:button instalar_Arclight1.20.1
+text Instalar Arclight (1.20.1 forge 47.2.20)
+remove_server
+download_version y arclight 1.20.1
+
+exec java -jar 1.20.1.jar
+config server_type 1.20.1
+exec echo "eula=true" >> eula.txt
+config server_version 1.20.1
+config_save
+
+say Arclight se ha instalado correctamente! [✓]
+sleep 3
+
+:button instalar_Arclight1.19.2
+text Instalar Arclight (1.19.2, Forge 43.3.8)
+remove_server
+download_version y arclight 1.19.2
+
+exec java -jar 1.19.2.jar
+config server_type 1.19.2
+exec echo "eula=true" >> eula.txt
+config server_version 1.19.2
+config_save
+
+say Arclight se ha instalado correctamente! [✓]
+sleep 3
+
+:button instalar_Arclight1.18.2
+text Instalar Arclight (1.18.2, Forge 40.2.14)
+remove_server
+download_version y arclight 1.18.2
+
+exec java -jar 1.18.2.jar
+config server_type 1.18.2
+exec echo "eula=true" >> eula.txt
+config server_version 1.18.2
+config_save
+
+say Arclight se ha instalado correctamente! [✓]
+sleep 3
