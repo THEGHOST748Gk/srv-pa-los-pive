@@ -255,3 +255,6 @@ california-ordinary.gl.at.ply.gg:35752 => 127.0.0.1:25565 (proto: Udp, port coun
 
 TUNNELS
 california-ordinary.gl.at.ply.gg:35752 => 127.0.0.1:25565 (proto: Udp, port count: 1)
+[2J8[0mGot Error
+MSG: Failed to load latest tunnels
+Error: ClientError(TooManyRequests)
